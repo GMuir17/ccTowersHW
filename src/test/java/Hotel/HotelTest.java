@@ -4,6 +4,7 @@ import Room.RoomType.BedRoomType;
 import Room.RoomType.ConferenceRoom;
 import Room.RoomType.DiningRoom;
 import Guest.Guest;
+import Room.Room;
 import org.junit.Before;
 import org.junit.Test;
 import Room.RoomType.Bedroom;
@@ -84,5 +85,15 @@ public class HotelTest {
         assertEquals(4, hotelWithRooms.numberOfRooms());
     }
 
+    @Test
+    public void getIndexOfRoom() {
+        assertEquals(0, hotelWithRooms.getRoomIndex(bedroom1));
+    }
+
+//    @Test
+//    public void canReturnARoomFromTheRoomList() {
+//        Room testRoom = hotelWithRooms.getRoomFromList(diningRoom);
+//        assertEquals("The Grill", testRoom.getName());
+//    }
 
 }

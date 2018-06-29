@@ -1,6 +1,7 @@
 package Hotel;
 
 import Room.Room;
+import Room.RoomType.Bedroom;
 
 import java.util.*;
 
@@ -8,7 +9,7 @@ public class Hotel {
 
     private String name;
     private int vault;
-    private List<Room> roomList;
+    private ArrayList<Room> roomList;
 
     public Hotel(String name, int vault) {
         this.name = name;
@@ -32,6 +33,13 @@ public class Hotel {
         this.roomList.add(room);
     }
 
+    public int getRoomIndex(Room room) {
+        return roomList.indexOf(room);
+    }
+
+//    public Room getRoomFromList(Room room) {
+//        return this.roomList.remove(room);
+//    }
 
 
 
