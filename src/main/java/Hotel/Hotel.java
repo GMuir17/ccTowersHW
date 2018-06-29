@@ -2,18 +2,18 @@ package Hotel;
 
 import Room.Room;
 
-import java.util.HashMap;
+import java.util.*;
 
 public class Hotel {
 
     private String name;
     private int vault;
-    private HashMap<String, Room> roomList;
+    private List<Room> roomList;
 
     public Hotel(String name, int vault) {
         this.name = name;
         this.vault = vault;
-        this.roomList = new HashMap<String, Room>();
+        this.roomList = new ArrayList<Room>();
     }
 
     public String getName() {
@@ -24,8 +24,20 @@ public class Hotel {
         return this.vault;
     }
 
-
     public int numberOfRooms() {
         return this.roomList.size();
     }
+
+    public void addRoom(Room room) {
+        this.roomList.add(room);
+    }
+
+
+
+
+
+
+
+
+
 }
