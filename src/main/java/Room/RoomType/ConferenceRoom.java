@@ -7,11 +7,13 @@ public class ConferenceRoom extends Room {
 
     private String name;
     private int capacity;
+    private int dailyRate;
 
-    public ConferenceRoom(String name, int capacity) {
+    public ConferenceRoom(String name, int capacity, int dailyRate) {
         super();
         this.name = name;
         this.capacity = capacity;
+        this.dailyRate = dailyRate;
     }
 
     public String getName() {
@@ -29,4 +31,7 @@ public class ConferenceRoom extends Room {
         }
     }
 
+    public int getDailyRate() {
+        return this.dailyRate;
+    }
 }

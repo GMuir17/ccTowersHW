@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf34d2c4-8ede-4637-93b6-e314edee9b75" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/Guest/Guest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Guest/Guest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Room/RoomType/ConferenceRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Room/RoomType/ConferenceRoom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Guest/GuestTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Guest/GuestTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Room/RoomType/ConferenceRoomTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Room/RoomType/ConferenceRoomTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -40,32 +42,35 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="ConferenceRoom.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="ConferenceRoom.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/Room/RoomType/ConferenceRoom.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="150">
-                  <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+                <state relative-caret-position="510">
+                  <caret line="33" column="31" lean-forward="true" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="e#318#319#0" expanded="true" />
                     <element signature="e#350#351#0" expanded="true" />
                     <element signature="e#382#383#0" expanded="true" />
                     <element signature="e#418#419#0" expanded="true" />
+                    <element signature="e#740#741#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Guest.java" pinned="false" current-in-tab="false">
+          <file leaf-file-name="Guest.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/Guest/Guest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="165">
-                  <caret line="11" selection-start-line="11" selection-end-line="11" />
+                <state relative-caret-position="315">
+                  <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
                   <folding>
                     <element signature="e#224#225#0" expanded="true" />
                     <element signature="e#256#257#0" expanded="true" />
                     <element signature="e#286#287#0" expanded="true" />
                     <element signature="e#307#308#0" expanded="true" />
+                    <element signature="e#365#366#0" expanded="true" />
+                    <element signature="e#400#401#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -115,11 +120,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="ConferenceRoomTest.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="ConferenceRoomTest.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/test/java/Room/RoomType/ConferenceRoomTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="285">
-                  <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+                <state relative-caret-position="495">
+                  <caret line="78" column="50" lean-forward="true" selection-start-line="78" selection-start-column="50" selection-end-line="78" selection-end-column="50" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="e#497#498#0" expanded="true" />
@@ -128,16 +133,18 @@
                     <element signature="e#1614#1615#0" expanded="true" />
                     <element signature="e#1657#1658#0" expanded="true" />
                     <element signature="e#1718#1719#0" expanded="true" />
+                    <element signature="e#1959#1960#0" expanded="true" />
+                    <element signature="e#1981#1982#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="GuestTest.java" pinned="false" current-in-tab="false">
+          <file leaf-file-name="GuestTest.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/java/Guest/GuestTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="345">
-                  <caret line="23" column="39" lean-forward="true" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+                <state relative-caret-position="435">
+                  <caret line="29" column="43" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="e#130#131#0" expanded="true" />
@@ -161,6 +168,13 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>DiningRoom</find>
+      <find>diningRoom</find>
+      <find>Nuovo Vesuvio</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -461,13 +475,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/Guest/GuestTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Guest/Guest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Room/Room.java" />
         <option value="$PROJECT_DIR$/src/main/java/Room/RoomType/DiningRoom.java" />
         <option value="$PROJECT_DIR$/src/test/java/Room/RoomType/DiningRoomTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Room/RoomType/ConferenceRoom.java" />
         <option value="$PROJECT_DIR$/src/test/java/Room/RoomType/ConferenceRoomTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Room/RoomType/ConferenceRoom.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Guest/Guest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Guest/GuestTest.java" />
       </list>
     </option>
   </component>
@@ -595,7 +609,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ConferenceRoomTest">
+  <component name="RunManager" selected="JUnit.GuestTest.canAddToWallet">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -613,6 +627,29 @@
       <option name="MAIN_CLASS_NAME" value="Room.RoomType.ConferenceRoomTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="ConferenceRoomTest.hasDailyRate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ccTowersHW_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Room.RoomType.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Room.RoomType" />
+      <option name="MAIN_CLASS_NAME" value="Room.RoomType.ConferenceRoomTest" />
+      <option name="METHOD_NAME" value="hasDailyRate" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -645,29 +682,6 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="DiningRoomTest.canAddGuestToDiningRoom" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ccTowersHW_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Room.RoomType.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Room.RoomType" />
-      <option name="MAIN_CLASS_NAME" value="Room.RoomType.DiningRoomTest" />
-      <option name="METHOD_NAME" value="canAddGuestToDiningRoom" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
     <configuration name="DiningRoomTest.cannotAddGuestWhenRoomIsFull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ccTowersHW_test" />
       <extension name="coverage">
@@ -691,19 +705,19 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="DiningRoomTest.hasCapacity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GuestTest.canAddToWallet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ccTowersHW_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Room.RoomType.*" />
+          <option name="PATTERN" value="Guest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Room.RoomType" />
-      <option name="MAIN_CLASS_NAME" value="Room.RoomType.DiningRoomTest" />
-      <option name="METHOD_NAME" value="hasCapacity" />
+      <option name="PACKAGE_NAME" value="Guest" />
+      <option name="MAIN_CLASS_NAME" value="Guest.GuestTest" />
+      <option name="METHOD_NAME" value="canAddToWallet" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -753,19 +767,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.DiningRoomTest.hasCapacity" />
-      <item itemvalue="JUnit.DiningRoomTest.canAddGuestToDiningRoom" />
       <item itemvalue="JUnit.DiningRoomTest" />
       <item itemvalue="JUnit.DiningRoomTest.cannotAddGuestWhenRoomIsFull" />
       <item itemvalue="JUnit.ConferenceRoomTest" />
+      <item itemvalue="JUnit.ConferenceRoomTest.hasDailyRate" />
+      <item itemvalue="JUnit.GuestTest.canAddToWallet" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GuestTest.canAddToWallet" />
+        <item itemvalue="JUnit.ConferenceRoomTest.hasDailyRate" />
         <item itemvalue="JUnit.ConferenceRoomTest" />
         <item itemvalue="JUnit.DiningRoomTest.cannotAddGuestWhenRoomIsFull" />
         <item itemvalue="JUnit.DiningRoomTest" />
-        <item itemvalue="JUnit.DiningRoomTest.canAddGuestToDiningRoom" />
-        <item itemvalue="JUnit.DiningRoomTest.hasCapacity" />
       </list>
     </recent_temporary>
   </component>
@@ -783,15 +797,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DiningRoomTest_cannotRemoveGuestWhenRoomIsAlreadyEmpty - 2018.06.29 at 11h 55m 47s.xml">
-      <configuration name="DiningRoomTest.cannotRemoveGuestWhenRoomIsAlreadyEmpty" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DiningRoomTest_cannotRemoveGuestWhenRoomIsAlreadyEmpty - 2018.06.29 at 11h 56m 56s.xml">
-      <configuration name="DiningRoomTest.cannotRemoveGuestWhenRoomIsAlreadyEmpty" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DiningRoomTest_canRemoveGuestRoomIsOccupied - 2018.06.29 at 12h 00m 16s.xml">
-      <configuration name="DiningRoomTest.canRemoveGuestRoomIsOccupied" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="DiningRoomTest_canEmptyRoom - 2018.06.29 at 12h 02m 01s.xml">
       <configuration name="DiningRoomTest.canEmptyRoom" configurationId="JUnit" />
     </history-entry>
@@ -812,6 +817,15 @@
     </history-entry>
     <history-entry file="DiningRoomTest_cannotAddGuestWhenRoomIsFull - 2018.06.29 at 12h 26m 47s.xml">
       <configuration name="DiningRoomTest.cannotAddGuestWhenRoomIsFull" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DiningRoomTest_cannotAddGuestWhenRoomIsFull - 2018.06.29 at 12h 31m 59s.xml">
+      <configuration name="DiningRoomTest.cannotAddGuestWhenRoomIsFull" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ConferenceRoomTest - 2018.06.29 at 12h 32m 05s.xml">
+      <configuration name="ConferenceRoomTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ConferenceRoomTest_hasDailyRate - 2018.06.29 at 12h 34m 25s.xml">
+      <configuration name="ConferenceRoomTest.hasDailyRate" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -916,35 +930,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Guest/Guest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#224#225#0" expanded="true" />
-            <element signature="e#256#257#0" expanded="true" />
-            <element signature="e#286#287#0" expanded="true" />
-            <element signature="e#307#308#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Guest/GuestTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="39" lean-forward="true" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#130#131#0" expanded="true" />
-            <element signature="e#158#159#0" expanded="true" />
-            <element signature="e#230#231#0" expanded="true" />
-            <element signature="e#251#252#0" expanded="true" />
-            <element signature="e#370#371#0" expanded="true" />
-            <element signature="e#400#401#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Room/Room.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -979,20 +964,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Room/RoomType/ConferenceRoom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#318#319#0" expanded="true" />
-            <element signature="e#350#351#0" expanded="true" />
-            <element signature="e#382#383#0" expanded="true" />
-            <element signature="e#418#419#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Room/RoomType/DiningRoomTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -1011,8 +982,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Room/RoomType/ConferenceRoomTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+        <state relative-caret-position="495">
+          <caret line="78" column="50" lean-forward="true" selection-start-line="78" selection-start-column="50" selection-end-line="78" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#497#498#0" expanded="true" />
@@ -1021,6 +992,54 @@
             <element signature="e#1614#1615#0" expanded="true" />
             <element signature="e#1657#1658#0" expanded="true" />
             <element signature="e#1718#1719#0" expanded="true" />
+            <element signature="e#1959#1960#0" expanded="true" />
+            <element signature="e#1981#1982#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Room/RoomType/ConferenceRoom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="33" column="31" lean-forward="true" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#318#319#0" expanded="true" />
+            <element signature="e#350#351#0" expanded="true" />
+            <element signature="e#382#383#0" expanded="true" />
+            <element signature="e#418#419#0" expanded="true" />
+            <element signature="e#740#741#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Guest/Guest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+          <folding>
+            <element signature="e#224#225#0" expanded="true" />
+            <element signature="e#256#257#0" expanded="true" />
+            <element signature="e#286#287#0" expanded="true" />
+            <element signature="e#307#308#0" expanded="true" />
+            <element signature="e#365#366#0" expanded="true" />
+            <element signature="e#400#401#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Guest/GuestTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="43" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#130#131#0" expanded="true" />
+            <element signature="e#158#159#0" expanded="true" />
+            <element signature="e#230#231#0" expanded="true" />
+            <element signature="e#251#252#0" expanded="true" />
+            <element signature="e#370#371#0" expanded="true" />
+            <element signature="e#400#401#0" expanded="true" />
           </folding>
         </state>
       </provider>

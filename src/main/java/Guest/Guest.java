@@ -17,4 +17,8 @@ public class Guest {
     public int getWallet() {
         return this.wallet;
     }
+
+    public void addToWallet(int money) {
+        this.wallet += money;
+    }
 }

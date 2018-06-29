@@ -14,7 +14,7 @@ public class ConferenceRoomTest {
 
     @Before
     public void setUp() {
-        conferenceRoom = new ConferenceRoom("Room1", 1);
+        conferenceRoom = new ConferenceRoom("Room1", 1, 20);
         guest1 = new Guest("Jack", 100);
         guest2 = new Guest("Norman", 50);
     }
@@ -74,6 +74,10 @@ public class ConferenceRoomTest {
         assertEquals(1, conferenceRoom.numberOfOccupants());
     }
 
+    @Test
+    public void hasDailyRate() {
+        assertEquals(20, conferenceRoom.getDailyRate());
+    }
 
 
 
