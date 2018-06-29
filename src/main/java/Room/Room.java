@@ -23,5 +23,8 @@ public abstract class Room {
         occupants.add(guest);
     }
 
+    public void removeGuest() {
+        occupants.remove(0);
+    }
 
 }

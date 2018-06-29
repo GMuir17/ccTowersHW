@@ -10,12 +10,14 @@ import static org.junit.Assert.assertEquals;
 public class DiningRoomTest {
 
     DiningRoom diningRoom;
-    Guest guest;
+    Guest guest1;
+    Guest guest2;
 
     @Before
     public void setUp() {
         diningRoom = new DiningRoom();
-        guest = new Guest("Jack", 100);
+        guest1 = new Guest("Jack", 100);
+        guest2 = new Guest("Norman", 50);
     }
 
     @Test
@@ -25,8 +27,15 @@ public class DiningRoomTest {
 
     @Test
     public void canAddGuestToDiningRoom() {
-        diningRoom.addGuest(guest);
+        diningRoom.addGuest(guest1);
         assertEquals(1, diningRoom.numberOfOccupants());
+    }
+
+    @Test
+    public void canRemoveGuestRoomIsOccupied() {
+        diningRoom.addGuest(guest1);
+        diningRoom.removeGuest();
+        assertEquals(0, diningRoom.numberOfOccupants());
     }
 
 
