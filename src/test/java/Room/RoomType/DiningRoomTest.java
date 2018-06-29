@@ -10,16 +10,15 @@ import static org.junit.Assert.assertEquals;
 public class DiningRoomTest {
 
     DiningRoom diningRoom;
-    ArrayList<Guest> occupants;
 
     @Before
     public void setUp() {
-        diningRoom = new DiningRoom(occupants);
+        diningRoom = new DiningRoom();
     }
 
     @Test
     public void occupantsArrayListStartsEmpty() {
-        assertEquals(0, occupants.size());
+        assertEquals(0, diningRoom.numberOfOccupants());
     }
 
 

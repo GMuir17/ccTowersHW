@@ -7,8 +7,12 @@ public abstract class Room {
 
     private ArrayList<Guest> occupants;
 
-    public Room(ArrayList<Guest> occupants) {
-        this.occupants = occupants;
+    public Room() {
+        this.occupants = new ArrayList<>();
+    }
+
+    public ArrayList<Guest> getOccupants() {
+        return this.occupants;
     }
 
 

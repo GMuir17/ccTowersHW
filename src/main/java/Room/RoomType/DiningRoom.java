@@ -7,11 +7,13 @@ import java.util.ArrayList;
 
 public class DiningRoom extends Room {
 
-    public DiningRoom(ArrayList<Guest> occupants) {
-        super(occupants);
+    public DiningRoom() {
+        super();
     }
 
-
+    public int numberOfOccupants() {
+        return getOccupants().size();
+    }
 
 
 
