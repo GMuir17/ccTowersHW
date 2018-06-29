@@ -24,5 +24,9 @@ public class HotelTest {
         assertEquals(0, hotel.getVault());
     }
 
+    @Test
+    public void roomListStartsEmpty() {
+        assertEquals(0, hotel.numberOfRooms());
+    }
 
 }
