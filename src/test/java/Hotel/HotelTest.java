@@ -11,7 +11,7 @@ public class HotelTest {
 
     @Before
     public void setUp() {
-        hotel = new Hotel("California");
+        hotel = new Hotel("California", 0);
     }
 
     @Test
@@ -19,6 +19,10 @@ public class HotelTest {
         assertEquals("California", hotel.getName());
     }
 
+    @Test
+    public void hasVault() {
+        assertEquals(0, hotel.getVault());
+    }
 
 
 }
