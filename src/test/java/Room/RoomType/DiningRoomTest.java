@@ -67,7 +67,12 @@ public class DiningRoomTest {
         assertEquals(1, diningRoom.getCapacity());
     }
 
-
+    @Test
+    public void cannotAddGuestWhenRoomIsFull() {
+        diningRoom.addGuest(guest1);
+        diningRoom.addGuest(guest2);
+        assertEquals(1, diningRoom.numberOfOccupants());
+    }
 
 
 
