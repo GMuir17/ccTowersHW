@@ -29,4 +29,18 @@ public class GuestTest {
         guest.addToWallet(10);
         assertEquals(110, guest.getWallet());
     }
+
+    @Test
+    public void canTakeFromWallet() {
+        guest.takeFromWallet(10);
+        assertEquals(90, guest.getWallet());
+    }
+
+
+
+
+
+
+
+
 }

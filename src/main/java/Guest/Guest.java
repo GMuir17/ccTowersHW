@@ -21,4 +21,9 @@ public class Guest {
     public void addToWallet(int money) {
         this.wallet += money;
     }
+
+
+    public void takeFromWallet(int money) {
+        this.wallet -= money;
+    }
 }

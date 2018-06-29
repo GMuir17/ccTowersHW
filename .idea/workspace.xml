@@ -609,7 +609,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.GuestTest.canAddToWallet">
+  <component name="RunManager" selected="JUnit.GuestTest.canTakeFromWallet">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -650,29 +650,6 @@
       <option name="MAIN_CLASS_NAME" value="Room.RoomType.ConferenceRoomTest" />
       <option name="METHOD_NAME" value="hasDailyRate" />
       <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="DiningRoomTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ccTowersHW_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Room.RoomType.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Room.RoomType" />
-      <option name="MAIN_CLASS_NAME" value="Room.RoomType.DiningRoomTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -728,6 +705,29 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="GuestTest.canTakeFromWallet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ccTowersHW_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Guest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Guest" />
+      <option name="MAIN_CLASS_NAME" value="Guest.GuestTest" />
+      <option name="METHOD_NAME" value="canTakeFromWallet" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -767,19 +767,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.DiningRoomTest" />
       <item itemvalue="JUnit.DiningRoomTest.cannotAddGuestWhenRoomIsFull" />
       <item itemvalue="JUnit.ConferenceRoomTest" />
       <item itemvalue="JUnit.ConferenceRoomTest.hasDailyRate" />
       <item itemvalue="JUnit.GuestTest.canAddToWallet" />
+      <item itemvalue="JUnit.GuestTest.canTakeFromWallet" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GuestTest.canTakeFromWallet" />
         <item itemvalue="JUnit.GuestTest.canAddToWallet" />
         <item itemvalue="JUnit.ConferenceRoomTest.hasDailyRate" />
         <item itemvalue="JUnit.ConferenceRoomTest" />
         <item itemvalue="JUnit.DiningRoomTest.cannotAddGuestWhenRoomIsFull" />
-        <item itemvalue="JUnit.DiningRoomTest" />
       </list>
     </recent_temporary>
   </component>
