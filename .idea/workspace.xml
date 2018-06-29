@@ -610,7 +610,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BedroomTest">
+  <component name="RunManager" selected="JUnit.BedroomTest.hasNightlyRate">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -637,7 +637,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="ConferenceRoomTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BedroomTest.hasNightlyRate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ccTowersHW_test" />
       <extension name="coverage">
         <pattern>
@@ -648,9 +648,9 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="Room.RoomType" />
-      <option name="MAIN_CLASS_NAME" value="Room.RoomType.ConferenceRoomTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="Room.RoomType.BedroomTest" />
+      <option name="METHOD_NAME" value="hasNightlyRate" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -768,19 +768,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.ConferenceRoomTest" />
       <item itemvalue="JUnit.ConferenceRoomTest.hasDailyRate" />
       <item itemvalue="JUnit.GuestTest.canAddToWallet" />
       <item itemvalue="JUnit.GuestTest.canTakeFromWallet" />
       <item itemvalue="JUnit.BedroomTest" />
+      <item itemvalue="JUnit.BedroomTest.hasNightlyRate" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BedroomTest.hasNightlyRate" />
         <item itemvalue="JUnit.BedroomTest" />
         <item itemvalue="JUnit.GuestTest.canTakeFromWallet" />
         <item itemvalue="JUnit.GuestTest.canAddToWallet" />
         <item itemvalue="JUnit.ConferenceRoomTest.hasDailyRate" />
-        <item itemvalue="JUnit.ConferenceRoomTest" />
       </list>
     </recent_temporary>
   </component>
