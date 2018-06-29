@@ -11,10 +11,6 @@ public class DiningRoom extends Room {
         super();
     }
 
-    public int numberOfOccupants() {
-        return getOccupants().size();
-    }
-
 
 
 }

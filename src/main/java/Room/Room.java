@@ -15,7 +15,9 @@ public abstract class Room {
         return this.occupants;
     }
 
-
+    public int numberOfOccupants() {
+        return getOccupants().size();
+    }
 
 
 }
