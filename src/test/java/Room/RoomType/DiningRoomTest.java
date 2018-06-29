@@ -14,7 +14,7 @@ public class DiningRoomTest {
 
     @Before
     public void setUp() {
-        diningRoom = new DiningRoom("Nuovo Vesuvio");
+        diningRoom = new DiningRoom("Nuovo Vesuvio", 1);
         guest1 = new Guest("Jack", 100);
         guest2 = new Guest("Norman", 50);
     }
@@ -61,4 +61,15 @@ public class DiningRoomTest {
     public void hasName() {
         assertEquals("Nuovo Vesuvio", diningRoom.getName());
     }
+
+    @Test
+    public void hasCapacity() {
+        assertEquals(1, diningRoom.getCapacity());
+    }
+
+
+
+
+
+
 }
