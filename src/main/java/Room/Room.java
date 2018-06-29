@@ -24,7 +24,9 @@ public abstract class Room {
     }
 
     public void removeGuest() {
-        occupants.remove(0);
+        if (occupants.size() > 0) {
+            occupants.remove(0);
+        }
     }
 
 }

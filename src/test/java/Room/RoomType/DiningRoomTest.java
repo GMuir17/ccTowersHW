@@ -38,5 +38,10 @@ public class DiningRoomTest {
         assertEquals(0, diningRoom.numberOfOccupants());
     }
 
+    @Test
+    public void cannotRemoveGuestWhenRoomIsAlreadyEmpty() {
+        diningRoom.removeGuest();
+        assertEquals(0, diningRoom.numberOfOccupants());
+    }
 
 }
