@@ -37,12 +37,8 @@ public class Hotel {
         return roomList.indexOf(room);
     }
 
-//    public Room getRoomFromList(Room room) {
-//        return this.roomList.remove(room);
-//    }
 
-
-
+//maybe a hashmap would be better for roomList??
 
 
 

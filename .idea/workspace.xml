@@ -680,7 +680,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.HotelTest.getIndexOfRoom">
+  <component name="RunManager" selected="JUnit.HotelTest.canReturnARoomFromTheRoomList">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -707,29 +707,6 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="HotelTest.canAddDiningRoom" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ccTowersHW_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Hotel.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Hotel" />
-      <option name="MAIN_CLASS_NAME" value="Hotel.HotelTest" />
-      <option name="METHOD_NAME" value="canAddDiningRoom" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
     <configuration name="HotelTest.canAddTwoRoomsOfDifferentClasses" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ccTowersHW_test" />
       <extension name="coverage">
@@ -743,6 +720,29 @@
       <option name="PACKAGE_NAME" value="Hotel" />
       <option name="MAIN_CLASS_NAME" value="Hotel.HotelTest" />
       <option name="METHOD_NAME" value="canAddTwoRoomsOfDifferentClasses" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="HotelTest.canReturnARoomFromTheRoomList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ccTowersHW_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Hotel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Hotel" />
+      <option name="MAIN_CLASS_NAME" value="Hotel.HotelTest" />
+      <option name="METHOD_NAME" value="canReturnARoomFromTheRoomList" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -839,18 +839,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.HotelTest" />
-      <item itemvalue="JUnit.HotelTest.canAddDiningRoom" />
       <item itemvalue="JUnit.HotelTest.canAddTwoRoomsOfDifferentClasses" />
       <item itemvalue="JUnit.HotelTest.checkWhetherSetUpHotelHasRooms" />
       <item itemvalue="JUnit.HotelTest.getIndexOfRoom" />
+      <item itemvalue="JUnit.HotelTest.canReturnARoomFromTheRoomList" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HotelTest.canReturnARoomFromTheRoomList" />
         <item itemvalue="JUnit.HotelTest.getIndexOfRoom" />
         <item itemvalue="JUnit.HotelTest.checkWhetherSetUpHotelHasRooms" />
         <item itemvalue="JUnit.HotelTest" />
         <item itemvalue="JUnit.HotelTest.canAddTwoRoomsOfDifferentClasses" />
-        <item itemvalue="JUnit.HotelTest.canAddDiningRoom" />
       </list>
     </recent_temporary>
   </component>

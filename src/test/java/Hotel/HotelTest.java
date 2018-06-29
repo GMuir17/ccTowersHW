@@ -90,10 +90,5 @@ public class HotelTest {
         assertEquals(0, hotelWithRooms.getRoomIndex(bedroom1));
     }
 
-//    @Test
-//    public void canReturnARoomFromTheRoomList() {
-//        Room testRoom = hotelWithRooms.getRoomFromList(diningRoom);
-//        assertEquals("The Grill", testRoom.getName());
-//    }
-
+// maybe a hashmap would be better here, easier to go in and search
 }
