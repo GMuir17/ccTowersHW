@@ -1,4 +1,15 @@
 package Room.RoomType;
 
-public class ConferenceRoom {
+import Room.Room;
+
+public class ConferenceRoom extends Room {
+
+    public ConferenceRoom() {
+        super();
+    }
+
+
+
+
+
 }

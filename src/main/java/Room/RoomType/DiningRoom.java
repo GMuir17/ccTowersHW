@@ -1,16 +1,18 @@
 package Room.RoomType;
 
-import Guest.Guest;
 import Room.Room;
-
-import java.util.ArrayList;
 
 public class DiningRoom extends Room {
 
-    public DiningRoom() {
+    private String name;
+
+    public DiningRoom(String name) {
         super();
+        this.name = name;
     }
 
 
-
+    public String getName() {
+        return this.name;
+    }
 }

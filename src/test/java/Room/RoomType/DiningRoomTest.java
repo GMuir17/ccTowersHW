@@ -1,7 +1,6 @@
 package Room.RoomType;
 
 import org.junit.Before;
-import java.util.ArrayList;
 import Guest.Guest;
 import org.junit.Test;
 
@@ -15,7 +14,7 @@ public class DiningRoomTest {
 
     @Before
     public void setUp() {
-        diningRoom = new DiningRoom();
+        diningRoom = new DiningRoom("Nuovo Vesuvio");
         guest1 = new Guest("Jack", 100);
         guest2 = new Guest("Norman", 50);
     }
@@ -58,4 +57,8 @@ public class DiningRoomTest {
         assertEquals(0, diningRoom.numberOfOccupants());
     }
 
+    @Test
+    public void hasName() {
+        assertEquals("Nuovo Vesuvio", diningRoom.getName());
+    }
 }
