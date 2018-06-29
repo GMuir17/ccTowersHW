@@ -34,4 +34,26 @@ public class ConferenceRoom extends Room {
     public int getDailyRate() {
         return this.dailyRate;
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
