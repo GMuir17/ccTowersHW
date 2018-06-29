@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cf34d2c4-8ede-4637-93b6-e314edee9b75" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Room/RoomType/BedRoomType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Room/RoomType/Bedroom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Room/RoomType/Bedroom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Room/RoomType/BedroomTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Room/RoomType/BedroomTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="cf34d2c4-8ede-4637-93b6-e314edee9b75" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -630,7 +626,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BedroomTest">
+  <component name="RunManager" selected="JUnit.HotelTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -670,29 +666,6 @@
       <option name="PACKAGE_NAME" value="Room.RoomType" />
       <option name="MAIN_CLASS_NAME" value="Room.RoomType.BedroomTest" />
       <option name="METHOD_NAME" value="hasNightlyRate" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="ConferenceRoomTest.hasDailyRate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ccTowersHW_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Room.RoomType.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Room.RoomType" />
-      <option name="MAIN_CLASS_NAME" value="Room.RoomType.ConferenceRoomTest" />
-      <option name="METHOD_NAME" value="hasDailyRate" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -749,6 +722,29 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="HotelTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ccTowersHW_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Hotel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Hotel" />
+      <option name="MAIN_CLASS_NAME" value="Hotel.HotelTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -788,19 +784,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.ConferenceRoomTest.hasDailyRate" />
       <item itemvalue="JUnit.GuestTest.canAddToWallet" />
       <item itemvalue="JUnit.GuestTest.canTakeFromWallet" />
       <item itemvalue="JUnit.BedroomTest" />
       <item itemvalue="JUnit.BedroomTest.hasNightlyRate" />
+      <item itemvalue="JUnit.HotelTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HotelTest" />
         <item itemvalue="JUnit.BedroomTest" />
         <item itemvalue="JUnit.BedroomTest.hasNightlyRate" />
         <item itemvalue="JUnit.GuestTest.canTakeFromWallet" />
         <item itemvalue="JUnit.GuestTest.canAddToWallet" />
-        <item itemvalue="JUnit.ConferenceRoomTest.hasDailyRate" />
       </list>
     </recent_temporary>
   </component>
@@ -818,9 +814,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DiningRoomTest_canAddGuestToDiningRoom - 2018.06.29 at 12h 24m 35s.xml">
-      <configuration name="DiningRoomTest.canAddGuestToDiningRoom" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="DiningRoomTest - 2018.06.29 at 12h 25m 48s.xml">
       <configuration name="DiningRoomTest" configurationId="JUnit" />
     </history-entry>
@@ -848,6 +841,9 @@
     <history-entry file="BedroomTest_hasNightlyRate - 2018.06.29 at 12h 45m 12s.xml">
       <configuration name="BedroomTest.hasNightlyRate" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="BedroomTest - 2018.06.29 at 12h 51m 58s.xml">
+      <configuration name="BedroomTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -866,7 +862,7 @@
       <window_info anchor="bottom" id="Terminal" weight="0.32965517" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16478191" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16478191" />
       <window_info anchor="bottom" id="Build" weight="0.3089655" />
       <window_info anchor="right" id="Gradle" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
