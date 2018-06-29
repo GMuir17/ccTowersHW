@@ -14,4 +14,8 @@ public class Guest {
     public String getName() {
         return this.name;
     }
+
+    public int getWallet() {
+        return this.wallet;
+    }
 }

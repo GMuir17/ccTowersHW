@@ -19,4 +19,8 @@ public class GuestTest {
         assertEquals("Jack", guest.getName());
     }
 
+    @Test
+    public void hasWallet() {
+        assertEquals(100, guest.getWallet());
+    }
 }
