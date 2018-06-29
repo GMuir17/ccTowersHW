@@ -6,13 +6,13 @@ import Guest.Guest;
 public class Bedroom extends Room {
 
     private String roomNumber;
-    private int capacity;
+    private BedRoomType type;
     private int nightlyRate;
 
-    public Bedroom(String roomNumber, int capacity, int nightlyRate) {
+    public Bedroom(String roomNumber, BedRoomType type, int nightlyRate) {
         super();
         this.roomNumber = roomNumber;
-        this.capacity = capacity;
+        this.type = type;
         this.nightlyRate = nightlyRate;
     }
 
@@ -21,11 +21,12 @@ public class Bedroom extends Room {
     }
 
     public int getCapacity() {
-        return this.capacity;
+        return this.type.getCapacityFromType();
     }
 
     @Override
     public void addGuest(Guest guest) {
+        int capacity = this.type.getCapacityFromType();
         if (this.numberOfOccupants() < capacity) {
             this.getOccupants().add(guest);
         }
