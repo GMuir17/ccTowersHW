@@ -29,4 +29,7 @@ public abstract class Room {
         }
     }
 
+    public void emptyRoom() {
+        occupants.clear();
+    }
 }

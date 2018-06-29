@@ -44,4 +44,18 @@ public class DiningRoomTest {
         assertEquals(0, diningRoom.numberOfOccupants());
     }
 
+    @Test
+    public void canEmptyRoom() {
+        diningRoom.addGuest(guest1);
+        diningRoom.addGuest(guest2);
+        diningRoom.emptyRoom();
+        assertEquals(0, diningRoom.numberOfOccupants());
+    }
+
+    @Test
+    public void cannotEmptyRoomAlreadyEmpty() {
+        diningRoom.emptyRoom();
+        assertEquals(0, diningRoom.numberOfOccupants());
+    }
+
 }
