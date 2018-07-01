@@ -9,6 +9,8 @@ import org.junit.Before;
 import org.junit.Test;
 import Room.RoomType.Bedroom;
 
+import java.util.HashMap;
+
 import static org.junit.Assert.assertEquals;
 
 public class HotelTest {
@@ -85,6 +87,10 @@ public class HotelTest {
         assertEquals(4, hotelWithRooms.numberOfRooms());
     }
 
-
+    @Test
+    public void hasHashMap() {
+        HashMap hash = hotelWithRooms.getRoomHash();
+        assertEquals(4, hash.size());
+    }
 
 }

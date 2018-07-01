@@ -32,7 +32,9 @@ public class Hotel {
         this.roomHash.put(key, room);
     }
 
-
+    public HashMap getRoomHash() {
+        return this.roomHash;
+    }
 
 
 
