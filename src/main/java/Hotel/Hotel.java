@@ -50,4 +50,9 @@ public class Hotel {
         Room room = this.roomHash.get(roomKey);
         room.removeGuest(guest);
     }
+
+    public ArrayList getGuestList(String key) {
+        Room room = getRoom(key);
+        return room.getOccupants();
+    }
 }

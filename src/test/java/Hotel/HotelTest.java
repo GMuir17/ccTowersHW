@@ -9,6 +9,7 @@ import org.junit.Before;
 import org.junit.Test;
 import Room.RoomType.Bedroom;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 
 import static org.junit.Assert.assertEquals;
@@ -130,7 +131,29 @@ public class HotelTest {
         Room room = hotelWithRooms.getRoom("bedroom2");
         Bedroom doubleRoom = (Bedroom) room;
         assertEquals(0, doubleRoom.numberOfOccupants());
+    }
 
+    @Test
+    public void cannotCheckInGuestWhenRoomIsFull() {
+        hotelWithRooms.checkInGuest(guest1, "bedroom1");
+        hotelWithRooms.checkInGuest(guest2, "bedroom1");
+        Room room = hotelWithRooms.getRoom("bedroom1");
+        Bedroom single = (Bedroom) room;
+        assertEquals(1, single.numberOfOccupants());
+    }
+
+    @Test
+    public void canGetAListOfGuestsCheckedIntoARoom() {
+        hotelWithRooms.checkInGuest(guest1, "bedroom2");
+        hotelWithRooms.checkInGuest(guest2, "bedroom2");
+        ArrayList guestList = hotelWithRooms.getGuestList("bedroom2");
+        assertEquals(2, guestList.size());
+    }
+
+    @Test
+    public void canGetAGuestListEvenWhenRoomIsEmpty() {
+        ArrayList guestList = hotelWithRooms.getGuestList("bedroom2");
+        assertEquals(0, guestList.size());
     }
 
 }
