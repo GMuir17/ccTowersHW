@@ -33,13 +33,13 @@ public class BedroomTest {
     @Test
     public void canRemoveGuestRoomIsOccupied() {
         bedroom.addGuest(guest1);
-        bedroom.removeGuest();
+        bedroom.removeGuest(guest1);
         assertEquals(0, bedroom.numberOfOccupants());
     }
 
     @Test
     public void cannotRemoveGuestWhenRoomIsAlreadyEmpty() {
-        bedroom.removeGuest();
+        bedroom.removeGuest(guest1);
         assertEquals(0, bedroom.numberOfOccupants());
     }
 

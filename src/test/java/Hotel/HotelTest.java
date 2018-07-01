@@ -123,4 +123,14 @@ public class HotelTest {
         assertEquals(1, doubleRoom.numberOfOccupants());
     }
 
+//    @Test
+//    public void canCheckOutGuests() {
+//        hotelWithRooms.checkInGuest(guest1, "bedroom1");
+//        hotelWithRooms.checkOutGuest(guest1, "bedroom1");
+//        Room room = hotelWithRooms.getRoom("bedroom2");
+//        Bedroom doubleRoom = (Bedroom) room;
+//        assertEquals(0, doubleRoom.numberOfOccupants());
+//
+//    }
+
 }

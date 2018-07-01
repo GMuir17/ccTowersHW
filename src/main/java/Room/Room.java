@@ -20,16 +20,21 @@ public abstract class Room {
     }
 
     public void addGuest(Guest guest) {
-        occupants.add(guest);
+        this.occupants.add(guest);
     }
 
-    public void removeGuest() {
-        if (occupants.size() > 0) {
-            occupants.remove(0);
+    public int getGuestIndex(Guest guest) {
+        return this.occupants.indexOf(guest);
+    }
+
+    public void removeGuest(Guest guest) {
+        int index = getGuestIndex(guest);
+        if (this.occupants.size() > 0) {
+            this.occupants.remove(index);
         }
     }
 
     public void emptyRoom() {
-        occupants.clear();
+        this.occupants.clear();
     }
 }

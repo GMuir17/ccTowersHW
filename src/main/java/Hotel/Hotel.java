@@ -45,4 +45,9 @@ public class Hotel {
         Room room = this.roomHash.get(roomKey);
         room.addGuest(guest);
     }
+
+//    public void checkOutGuest(Guest guest, String roomKey) {
+//        Room room = this.roomHash.get(roomKey);
+//        room.removeGuest(guest);
+//    }
 }

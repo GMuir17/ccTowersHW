@@ -31,15 +31,22 @@ public class DiningRoomTest {
     }
 
     @Test
+    public void canGetGuestIndexWhenInRoom() {
+        diningRoom.addGuest(guest1);
+        int index = diningRoom.getGuestIndex(guest1);
+        assertEquals(0, index);
+    }
+
+    @Test
     public void canRemoveGuestRoomIsOccupied() {
         diningRoom.addGuest(guest1);
-        diningRoom.removeGuest();
+        diningRoom.removeGuest(guest1);
         assertEquals(0, diningRoom.numberOfOccupants());
     }
 
     @Test
     public void cannotRemoveGuestWhenRoomIsAlreadyEmpty() {
-        diningRoom.removeGuest();
+        diningRoom.removeGuest(guest1);
         assertEquals(0, diningRoom.numberOfOccupants());
     }
 
