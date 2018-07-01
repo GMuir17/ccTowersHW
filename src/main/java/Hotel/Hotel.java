@@ -1,7 +1,6 @@
 package Hotel;
 
 import Room.Room;
-import Room.RoomType.Bedroom;
 
 import java.util.*;
 
@@ -10,11 +9,13 @@ public class Hotel {
     private String name;
     private int vault;
     private ArrayList<Room> roomList;
+    private HashMap<String, Room> roomHash;
 
     public Hotel(String name, int vault) {
         this.name = name;
         this.vault = vault;
         this.roomList = new ArrayList<Room>();
+        this.roomHash = new HashMap<String, Room>();
     }
 
     public String getName() {
@@ -26,7 +27,7 @@ public class Hotel {
     }
 
     public int numberOfRooms() {
-        return this.roomList.size();
+        return this.roomHash.size();
     }
 
     public void addRoom(Room room) {
