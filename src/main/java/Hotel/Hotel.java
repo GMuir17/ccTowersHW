@@ -36,7 +36,9 @@ public class Hotel {
         return this.roomHash;
     }
 
-
+    public Room getRoom(String key) {
+        return this.roomHash.get(key);
+    }
 
 
 }

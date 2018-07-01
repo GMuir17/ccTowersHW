@@ -93,4 +93,11 @@ public class HotelTest {
         assertEquals(4, hash.size());
     }
 
+    @Test
+    public void canGetRoomCapacityFromHashMap() {
+        Room room = hotelWithRooms.getRoom("diningRoom");
+        DiningRoom diner = (DiningRoom) room;
+        assertEquals(2, ((DiningRoom) room).getCapacity());
+    }
+
 }

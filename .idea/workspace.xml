@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf34d2c4-8ede-4637-93b6-e314edee9b75" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Hotel/Hotel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Hotel/Hotel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Hotel/HotelTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Hotel/HotelTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -43,7 +42,7 @@
           <file leaf-file-name="Hotel.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/Hotel/Hotel.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="495">
+                <state relative-caret-position="480">
                   <caret line="35" column="29" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
                   <folding>
                     <element signature="imports" expanded="true" />
@@ -155,8 +154,8 @@
           <file leaf-file-name="HotelTest.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/java/Hotel/HotelTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="585">
-                  <caret line="93" column="5" lean-forward="true" selection-start-line="93" selection-start-column="5" selection-end-line="93" selection-end-column="5" />
+                <state relative-caret-position="540">
+                  <caret line="98" column="29" selection-start-line="98" selection-start-column="29" selection-end-line="98" selection-end-column="29" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="e#243#244#0" expanded="true" />
@@ -678,7 +677,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.HotelTest.hasHashMap">
+  <component name="RunManager" selected="JUnit.HotelTest.canGetRoomCapacityFromHashMap">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -705,29 +704,6 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="HotelTest.canAddDiningRoom" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ccTowersHW_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Hotel.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Hotel" />
-      <option name="MAIN_CLASS_NAME" value="Hotel.HotelTest" />
-      <option name="METHOD_NAME" value="canAddDiningRoom" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
     <configuration name="HotelTest.canAddTwoRoomsOfDifferentClasses" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ccTowersHW_test" />
       <extension name="coverage">
@@ -741,6 +717,29 @@
       <option name="PACKAGE_NAME" value="Hotel" />
       <option name="MAIN_CLASS_NAME" value="Hotel.HotelTest" />
       <option name="METHOD_NAME" value="canAddTwoRoomsOfDifferentClasses" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="HotelTest.canGetRoomCapacityFromHashMap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ccTowersHW_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Hotel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Hotel" />
+      <option name="MAIN_CLASS_NAME" value="Hotel.HotelTest" />
+      <option name="METHOD_NAME" value="canGetRoomCapacityFromHashMap" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -836,19 +835,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.HotelTest.canAddDiningRoom" />
       <item itemvalue="JUnit.HotelTest.canAddTwoRoomsOfDifferentClasses" />
       <item itemvalue="JUnit.HotelTest.checkWhetherSetUpHotelHasRooms" />
       <item itemvalue="JUnit.HotelTest.canAccessRoomsCapacityFromHashMapInHotel" />
       <item itemvalue="JUnit.HotelTest.hasHashMap" />
+      <item itemvalue="JUnit.HotelTest.canGetRoomCapacityFromHashMap" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HotelTest.canGetRoomCapacityFromHashMap" />
         <item itemvalue="JUnit.HotelTest.hasHashMap" />
         <item itemvalue="JUnit.HotelTest.canAccessRoomsCapacityFromHashMapInHotel" />
         <item itemvalue="JUnit.HotelTest.checkWhetherSetUpHotelHasRooms" />
         <item itemvalue="JUnit.HotelTest.canAddTwoRoomsOfDifferentClasses" />
-        <item itemvalue="JUnit.HotelTest.canAddDiningRoom" />
       </list>
     </recent_temporary>
   </component>
@@ -866,9 +865,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HotelTest_getIndexOfRoom - 2018.06.29 at 15h 19m 48s.xml">
-      <configuration name="HotelTest.getIndexOfRoom" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="HotelTest_roomListStartsEmpty - 2018.07.01 at 10h 53m 35s.xml">
       <configuration name="HotelTest.roomListStartsEmpty" configurationId="JUnit" />
     </history-entry>
@@ -895,6 +891,9 @@
     </history-entry>
     <history-entry file="HotelTest_canAccessRoomsCapacityFromHashMapInHotel - 2018.07.01 at 11h 04m 43s.xml">
       <configuration name="HotelTest.canAccessRoomsCapacityFromHashMapInHotel" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HotelTest_hasHashMap - 2018.07.01 at 11h 17m 00s.xml">
+      <configuration name="HotelTest.hasHashMap" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -1130,7 +1129,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Hotel/Hotel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
+        <state relative-caret-position="480">
           <caret line="35" column="29" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1150,8 +1149,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Hotel/HotelTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="93" column="5" lean-forward="true" selection-start-line="93" selection-start-column="5" selection-end-line="93" selection-end-column="5" />
+        <state relative-caret-position="540">
+          <caret line="98" column="29" selection-start-line="98" selection-start-column="29" selection-end-line="98" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#243#244#0" expanded="true" />
