@@ -1,5 +1,6 @@
 package Hotel;
 
+import Guest.Guest;
 import Room.Room;
 
 import java.util.*;
@@ -40,5 +41,8 @@ public class Hotel {
         return this.roomHash.get(key);
     }
 
-
+    public void checkInGuest(Guest guest, String roomKey) {
+        Room room = this.roomHash.get(roomKey);
+        room.addGuest(guest);
+    }
 }

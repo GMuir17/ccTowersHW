@@ -100,4 +100,27 @@ public class HotelTest {
         assertEquals(2, ((DiningRoom) room).getCapacity());
     }
 
+    @Test
+    public void canGetBedRoomCapacity() {
+        Room room = hotelWithRooms.getRoom("bedroom1");
+        Bedroom single = (Bedroom) room;
+        assertEquals(1, single.getCapacity());
+    }
+
+    @Test
+    public void canCheckInGuests() {
+        hotelWithRooms.checkInGuest(guest1, "bedroom1");
+        Room room = hotelWithRooms.getRoom("bedroom1");
+        Bedroom single = (Bedroom) room;
+        assertEquals(1, single.numberOfOccupants());
+    }
+
+    @Test
+    public void canCheckInGuestsAgain() {
+        hotelWithRooms.checkInGuest(guest1, "bedroom2");
+        Room room = hotelWithRooms.getRoom("bedroom2");
+        Bedroom doubleRoom = (Bedroom) room;
+        assertEquals(1, doubleRoom.numberOfOccupants());
+    }
+
 }
