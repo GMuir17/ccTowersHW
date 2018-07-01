@@ -8,13 +8,11 @@ public class Hotel {
 
     private String name;
     private int vault;
-    private ArrayList<Room> roomList;
     private HashMap<String, Room> roomHash;
 
     public Hotel(String name, int vault) {
         this.name = name;
         this.vault = vault;
-        this.roomList = new ArrayList<Room>();
         this.roomHash = new HashMap<String, Room>();
     }
 
@@ -30,16 +28,10 @@ public class Hotel {
         return this.roomHash.size();
     }
 
-    public void addRoom(Room room) {
-        this.roomList.add(room);
+    public void addRoom(String key, Room room) {
+        this.roomHash.put(key, room);
     }
 
-    public int getRoomIndex(Room room) {
-        return roomList.indexOf(room);
-    }
-
-
-//maybe a hashmap would be better for roomList??
 
 
 

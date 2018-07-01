@@ -39,10 +39,10 @@ public class HotelTest {
         guest1 = new Guest("Jack", 100);
         guest2 = new Guest("Norman", 50);
 
-        hotelWithRooms.addRoom(bedroom1);
-        hotelWithRooms.addRoom(bedroom2);
-        hotelWithRooms.addRoom(diningRoom);
-        hotelWithRooms.addRoom(conferenceRoom);
+        hotelWithRooms.addRoom("bedroom1", bedroom1);
+        hotelWithRooms.addRoom("bedroom2", bedroom2);
+        hotelWithRooms.addRoom("diningRoom", diningRoom);
+        hotelWithRooms.addRoom("conferenceRoom", conferenceRoom);
 
     }
 
@@ -61,34 +61,30 @@ public class HotelTest {
         assertEquals(0, hotel.numberOfRooms());
     }
 
-//    @Test
-//    public void canAddBedRoom() {
-//        hotel.addRoom(bedroom1);
-//        assertEquals(1, hotel.numberOfRooms());
-//    }
+    @Test
+    public void canAddBedRoom() {
+        hotel.addRoom("bedroom1", bedroom1);
+        assertEquals(1, hotel.numberOfRooms());
+    }
 
-//    @Test
-//    public void canAddDiningRoom() {
-//        hotel.addRoom(diningRoom);
-//        assertEquals(1, hotel.numberOfRooms());
-//    }
+    @Test
+    public void canAddDiningRoom() {
+        hotel.addRoom("diningRoom", diningRoom);
+        assertEquals(1, hotel.numberOfRooms());
+    }
 
-//    @Test
-//    public void canAddTwoRoomsOfDifferentClasses() {
-//        hotel.addRoom(bedroom1);
-//        hotel.addRoom(diningRoom);
-//        assertEquals(2, hotel.numberOfRooms());
-//    }
+    @Test
+    public void canAddTwoRoomsOfDifferentClasses() {
+        hotel.addRoom("bedroom1", bedroom1);
+        hotel.addRoom("diningRoom", diningRoom);
+        assertEquals(2, hotel.numberOfRooms());
+    }
 
-//    @Test
-//    public void checkWhetherSetUpHotelHasRooms() {
-//        assertEquals(4, hotelWithRooms.numberOfRooms());
-//    }
+    @Test
+    public void checkWhetherSetUpHotelHasRooms() {
+        assertEquals(4, hotelWithRooms.numberOfRooms());
+    }
 
-//    @Test
-//    public void getIndexOfRoom() {
-//        assertEquals(0, hotelWithRooms.getRoomIndex(bedroom1));
-//    }
 
-// maybe a hashmap would be better here, easier to go in and search
+
 }
