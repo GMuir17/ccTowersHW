@@ -156,4 +156,19 @@ public class HotelTest {
         assertEquals(0, guestList.size());
     }
 
+    @Test
+    public void canGetAListOfEmptyBedrooms() {
+        hotelWithRooms.checkInGuest(guest1, "bedroom1");
+        ArrayList emptyRoomList = hotelWithRooms.getEmptyRoomList();
+        assertEquals(3, emptyRoomList.size());
+    }
+
+    @Test
+    public void canGetAListOfEmptyBedroomsAgain() {
+        ArrayList emptyRoomList = hotelWithRooms.getEmptyRoomList();
+        assertEquals(4, emptyRoomList.size());
+    }
+
+
+
 }

@@ -55,4 +55,14 @@ public class Hotel {
         Room room = getRoom(key);
         return room.getOccupants();
     }
+
+    public ArrayList getEmptyRoomList() {
+        ArrayList<Room> emptyRoomList = new ArrayList<>();
+        for (Room room : this.roomHash.values()) {
+            if (room.numberOfOccupants() == 0) {
+                emptyRoomList.add(room);
+            }
+        }
+        return emptyRoomList;
+    }
 }
