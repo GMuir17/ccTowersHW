@@ -2,6 +2,8 @@ package Hotel;
 
 import Guest.Guest;
 import Room.Room;
+import Room.RoomType.BedRoomType;
+import Room.RoomType.Bedroom;
 
 import java.util.*;
 
@@ -40,6 +42,7 @@ public class Hotel {
     public Room getRoom(String key) {
         return this.roomHash.get(key);
     }
+
 
     public void checkInGuest(Guest guest, String roomKey) {
         Room room = this.roomHash.get(roomKey);

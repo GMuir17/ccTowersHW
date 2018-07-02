@@ -54,15 +54,18 @@ public class HotelTest {
         assertEquals("California", hotel.getName());
     }
 
+
     @Test
     public void hasVault() {
         assertEquals(0, hotel.getVault());
     }
 
+
     @Test
     public void roomHashStartsEmpty() {
         assertEquals(0, hotel.numberOfRooms());
     }
+
 
     @Test
     public void canAddBedRoom() {
@@ -70,11 +73,13 @@ public class HotelTest {
         assertEquals(1, hotel.numberOfRooms());
     }
 
+
     @Test
     public void canAddDiningRoom() {
         hotel.addRoom("diningRoom", diningRoom);
         assertEquals(1, hotel.numberOfRooms());
     }
+
 
     @Test
     public void canAddTwoRoomsOfDifferentClasses() {
@@ -83,16 +88,19 @@ public class HotelTest {
         assertEquals(2, hotel.numberOfRooms());
     }
 
+
     @Test
     public void checkWhetherSetUpHotelHasRooms() {
         assertEquals(4, hotelWithRooms.numberOfRooms());
     }
+
 
     @Test
     public void hasHashMap() {
         HashMap hash = hotelWithRooms.getRoomHash();
         assertEquals(4, hash.size());
     }
+
 
     @Test
     public void canGetRoomCapacityFromHashMap() {
@@ -101,6 +109,7 @@ public class HotelTest {
         assertEquals(2, ((DiningRoom) room).getCapacity());
     }
 
+
     @Test
     public void canGetBedRoomCapacity() {
         Room room = hotelWithRooms.getRoom("bedroom1");
@@ -108,39 +117,40 @@ public class HotelTest {
         assertEquals(1, single.getCapacity());
     }
 
+
     @Test
     public void canCheckInGuests() {
         hotelWithRooms.checkInGuest(guest1, "bedroom1");
         Room room = hotelWithRooms.getRoom("bedroom1");
-        Bedroom single = (Bedroom) room;
-        assertEquals(1, single.numberOfOccupants());
+        assertEquals(1, room.numberOfOccupants());
     }
+
 
     @Test
     public void canCheckInGuestsAgain() {
         hotelWithRooms.checkInGuest(guest1, "bedroom2");
         Room room = hotelWithRooms.getRoom("bedroom2");
-        Bedroom doubleRoom = (Bedroom) room;
-        assertEquals(1, doubleRoom.numberOfOccupants());
+        assertEquals(1, room.numberOfOccupants());
     }
+
 
     @Test
     public void canCheckOutGuests() {
         hotelWithRooms.checkInGuest(guest1, "bedroom1");
         hotelWithRooms.checkOutGuest(guest1, "bedroom1");
-        Room room = hotelWithRooms.getRoom("bedroom2");
-        Bedroom doubleRoom = (Bedroom) room;
-        assertEquals(0, doubleRoom.numberOfOccupants());
+        Room room = hotelWithRooms.getRoom("bedroom1");
+        assertEquals(0, room.numberOfOccupants());
     }
+
 
     @Test
     public void cannotCheckInGuestWhenRoomIsFull() {
         hotelWithRooms.checkInGuest(guest1, "bedroom1");
         hotelWithRooms.checkInGuest(guest2, "bedroom1");
         Room room = hotelWithRooms.getRoom("bedroom1");
-        Bedroom single = (Bedroom) room;
-        assertEquals(1, single.numberOfOccupants());
+        assertEquals(1, room.numberOfOccupants());
     }
+
 
     @Test
     public void canGetAListOfGuestsCheckedIntoARoom() {
@@ -150,11 +160,13 @@ public class HotelTest {
         assertEquals(2, guestList.size());
     }
 
+
     @Test
     public void canGetAGuestListEvenWhenRoomIsEmpty() {
         ArrayList guestList = hotelWithRooms.getGuestList("bedroom2");
         assertEquals(0, guestList.size());
     }
+
 
     @Test
     public void canGetAListOfEmptyBedrooms() {
@@ -162,6 +174,7 @@ public class HotelTest {
         ArrayList emptyRoomList = hotelWithRooms.getEmptyRoomList();
         assertEquals(3, emptyRoomList.size());
     }
+
 
     @Test
     public void canGetAListOfEmptyBedroomsAgain() {
